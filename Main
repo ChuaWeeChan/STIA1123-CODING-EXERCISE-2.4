@@ -1,0 +1,29 @@
+package XM4SetterGetter;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class Main {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        
+        XM4 x=new XM4();
+        
+        x.setBrand("Sony XM4");
+        x.setColour("Black");
+        x.setWeight(120);
+        x.setPrice(1399);
+        x.setBluetooth("Bluetooth");
+        
+        System.out.println("---------------------SONY XM4----------------------");
+        System.out.println("\nThe Brand of this headphone is \t\t: "+x.getBrand());
+        System.out.println("\nThe Colour of this headphone is \t: "+x.getColour());
+        System.out.println("\nThe Weight of this headphone is \t: "+x.getWeight()+"gm");
+        System.out.println("\nThe Price of this headphone is \t\t: RM"+x.getPrice());
+        System.out.println("\nThe headphone connect via \t\t: "+x.getBluetooth());
+        System.out.println("\n---------------------------------------------------");
+    }
+}

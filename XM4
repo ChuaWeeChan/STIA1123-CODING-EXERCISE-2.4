@@ -1,0 +1,57 @@
+package XM4SetterGetter;
+
+/**
+ *
+ * @author CHUA WEE CHAN 271948
+ */
+public class XM4 {
+    String Brand;
+    String Colour;
+    double Weight;
+    int Price;
+    String Bluetooth;
+    
+    //Create setter
+    public void setBrand(String Brand){
+        this.Brand = Brand;
+    }
+    
+    public void setColour(String Colour){
+        this.Colour = Colour;
+    }
+    
+    public void setWeight(double Weight){
+        this.Weight = Weight;
+    }
+    
+    public void setPrice(int Price){
+        this.Price = Price;
+    }
+    
+    public void setBluetooth(String Bluetooth){
+        this.Bluetooth = Bluetooth;
+        
+    }
+    
+    //Create getter
+    public String getBrand(){
+        return Brand;
+    }
+    
+    public String getColour(){
+        return Colour;
+    }
+    
+    public double getWeight(){
+        return Weight;
+    }
+     
+    public int getPrice(){
+        return Price;
+    }
+    
+    public String getBluetooth(){
+        return Bluetooth;
+    }
+     
+}
